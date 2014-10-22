@@ -26,6 +26,10 @@ TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
+TEMPLATE_DIRS = (
+   '/home/evgenykrivosheev/Virtual/mysite/bin/mypoject/templates',
+)
+
 
 # Application definition
 
