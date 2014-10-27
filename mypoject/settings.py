@@ -28,6 +28,7 @@ ALLOWED_HOSTS = []
 
 TEMPLATE_DIRS = (
    '/home/evgenykrivosheev/Virtual/mysite/bin/mypoject/templates',
+   '/home/evgenykrivosheev/Virtual/mysite/bin/mypoject/article/templates$',
 )
 
 
