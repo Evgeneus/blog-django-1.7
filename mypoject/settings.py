@@ -27,10 +27,9 @@ TEMPLATE_DEBUG = True
 ALLOWED_HOSTS = []
 
 TEMPLATE_DIRS = (
-   '/home/evgenykrivosheev/Virtual/mysite/bin/mypoject/templates',
-   '/home/evgenykrivosheev/Virtual/mysite/bin/mypoject/article/templates$',
+   os.path.join(BASE_DIR, 'templates'),
+    os.path.join(BASE_DIR, 'article/templates'),
 )
-
 
 # Application definition
 
@@ -89,5 +88,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
-    ('static', '/home/evgenykrivosheev/Virtual/mysite/bin/mypoject/static'),
+    ('static', os.path.join(BASE_DIR, 'static')),
 )
